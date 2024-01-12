@@ -198,15 +198,18 @@ li{
 } */
 
 /* 960 GRID SYSTEM */
-*{
+/* *{
     color: #665544;
     text-align: center;
-    font-family: arial,verdana,sans-serif;
+    font-family:arial, verdana, sans-serif ;
 }
 
-#nav,#feature,.article,#footer{
+#nav,
+#feature,
+.article,
+#footer{
     background-color: #efefef;
-    margin-top: 20px;
+    margin: 20px;
     padding: 10px 0px 5px 0px;
 }
 
@@ -217,4 +220,10 @@ li{
 li{
     display: inline;
     padding: 5px;
+} */
+
+/* MULTIPLE STYLE SHEETS in css @IMPORT */
+@import url(./test-stylesheet.css);
+#heading1{
+    color: red;
 }
